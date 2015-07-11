@@ -96,19 +96,26 @@ FOOTER
 
 footer {
   clear: both;
-  color:#ccc;
+  color:#aaa;
   background-color: #000;
-  margin: 0 auto;
-  text-align: center;
-  color: #fff;
+ 
 }
 
-.social .transition a {
-  text-align: center;
+.social{
+    text-align: center;
+    color: #fff;
+    background-color: #6AB47B;
+    margin: 0 -2em;
+    padding-right: 1.5em;
+}
+.social .transition {
   display: inline-block;
   list-style: none;
   padding: 1em;
   margin-top: 1em;
+}
+
+.social .transition i{
   color: #fff;
 }  
 
